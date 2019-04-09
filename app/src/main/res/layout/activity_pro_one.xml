@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bs"
+    tools:context="com.mini.solaiman.policedhara.app.ProOne">
+
+    <LinearLayout
+        android:id="@+id/pro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/menu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="প্রবিধান"
+            android:textColor="#FFFFFF"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:padding="10dp"
+            android:background="@drawable/borderblack"
+            />
+    </LinearLayout>
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        android:layout_below="@+id/pro"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dip" >
+
+            <TextView
+                android:padding="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:textAlignment="center"
+                android:id="@+id/text1"
+                android:textSize="20dp"
+                android:text="ANDROID"
+                tools:ignore="DuplicateIds"
+                android:background="@drawable/onlyborder"/>
+
+            <ListView
+                android:id="@+id/partView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:background="@drawable/bordernew" >
+            </ListView>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

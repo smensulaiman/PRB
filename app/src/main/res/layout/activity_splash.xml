@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgthird"
+    tools:actionBarNavMode="standard"
+    tools:context="com.mini.solaiman.policedhara.app.SplashActivity"
+
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    >
+    <ImageView
+        android:id="@+id/mlogo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/nlogo"
+        android:layout_gravity="center"
+        android:padding="25dp"/>
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:text="বাংলাদেশ পুলিশ প্রবিধানের ভাষ্য"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="22dp"
+        android:background="#062647"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:gravity="center" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/police"
+        android:padding="20dp"/>
+</LinearLayout>
+
+</RelativeLayout>

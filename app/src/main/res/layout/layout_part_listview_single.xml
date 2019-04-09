@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3"
+        android:orientation="horizontal"
+        android:padding="4dp"
+        android:background="@drawable/onlyborder"
+        >
+        <ImageView
+            android:padding="5dp"
+            android:layout_weight=".5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/chpicon"
+            android:background="@drawable/onlyborder"
+            />
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="2.5"
+            android:layout_height="42dp"
+            android:layout_margin="2dp"
+            >
+            <TextView
+                android:id="@+id/partBtn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="I. Table showing "
+                android:gravity="center_vertical"
+                android:padding="10dp"
+                android:textColor="#FFFFFF"
+                android:textSize="15dp"
+                android:background="@drawable/borderred"
+                android:layout_marginLeft="5dp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

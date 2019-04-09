@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mini.solaiman.policedhara.app.ReadActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="center"
+        android:src="@drawable/reader"
+        android:padding="10dp"/>
+
+    <ScrollView
+        android:id="@+id/ScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="2dp"
+        android:paddingLeft="5dp"
+        tools:ignore="DuplicateIds">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ScrollView
+                android:id="@+id/ScrollView01"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"/>
+
+                    <TextView
+                        android:id="@+id/textViewHead"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="15dp"
+                        android:gravity="center"
+                        android:includeFontPadding="true"
+                        android:text="সংগঠন"
+                        android:textColor="#FFFFFF"
+                        android:background="@drawable/border"
+                        android:textSize="25dp" />
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="hey"
+                        android:layout_marginRight="5dp"
+                        android:padding="5dp"
+                        android:includeFontPadding="true"
+                        android:fontFamily="sans-serif"
+                        android:textStyle="bold"
+                        android:textColor="#2D2D2D"
+                        android:textSize="20dp"
+                        android:background="@drawable/onlyborder"/>
+                </LinearLayout>
+            </ScrollView>
+
+            <ScrollView
+                android:layout_marginTop="20dp"
+                android:id="@+id/ScrollView02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ScrollView01">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textViewHeadE"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="15dp"
+                        android:gravity="center"
+                        android:text="ORGANIZATION"
+                        android:background="@drawable/border"
+                        android:textColor="#FFFFFF"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:id="@+id/textViewEng"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:fontFamily="sans-serif"
+                        android:includeFontPadding="true"
+                        android:text="hey"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/onlyborder"
+                        android:padding="5dp"
+                        android:textColor="#2D2D2D"
+                        android:textSize="20dp" />
+                </LinearLayout>
+            </ScrollView>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

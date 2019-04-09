@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/bs"
+    tools:context="com.mini.solaiman.policedhara.app.NewActivity">
+
+    <TextView
+        android:id="@+id/menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="প্রবিধান"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:padding="10dp"
+        android:background="@drawable/borderblack"
+        />
+
+    <ListView
+        android:layout_below="@+id/menu"
+        android:id="@+id/list_view_items"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        tools:ignore="UnknownId" />
+
+</RelativeLayout>

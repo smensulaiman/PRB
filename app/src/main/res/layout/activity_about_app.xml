@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mini.solaiman.policedhara.app.AboutApp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/onlyborder"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/image"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                app:cardBackgroundColor="#ffffff"
+                app:cardCornerRadius="5dp"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/profile"
+                    />
+
+            </android.support.v7.widget.CardView>
+
+            <TextView
+                android:id="@+id/info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/image"
+                android:layout_margin="15dp"
+                android:background="@drawable/border_blue"
+                android:padding="10dp"
+                android:text="মোঃ আমিনুল ইসলাম\nঅতিরিক্ত পুলিশ সুপার\n২৮ তম বিসিএস\n\nEmail : aminul156@yahoo.com\nWebsite : www.mdaminulislam.com\nMobile : 01716604514, 01711234590"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                />
+
+            <TextView
+                android:id="@+id/head"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/info"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="এ্যাপ সম্পর্কে"
+                android:textSize="20dp" />
+
+            <WebView
+                android:id="@id/text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/head"
+                tools:ignore="WebViewLayout"
+                android:padding="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                />
+
+
+            <LinearLayout
+                android:layout_below="@+id/text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="2"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/redirect"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="সার্বিক সহযোগিতায়:"
+                        android:textColor="#FFFFFF"
+                        android:padding="10dp"
+
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="\nEkattor IT"
+                        android:textColor="#FF552A"
+                        android:padding="10dp"
+
+                        />
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/author"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="সৌজন্যে"
+                        android:textColor="#FFFFFF"
+                        android:padding="10dp"
+
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="\nমোঃ আমিনুল ইসলাম"
+                        android:textColor="#2A7FFF"
+                        android:padding="10dp"
+
+                        />
+
+                </android.support.v7.widget.CardView>
+
+
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

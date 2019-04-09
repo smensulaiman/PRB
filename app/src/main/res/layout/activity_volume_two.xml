@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bs"
+    tools:context="com.mini.solaiman.policedhara.app.VolumeTwo">
+
+    <RelativeLayout
+        android:id="@+id/partone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:id="@+id/pro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:background="@drawable/onlyborder"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        >
+        <TextView
+            android:id="@+id/menu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VOLUME - 2"
+            android:textColor="#FFFFFF"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:padding="5dp"
+            android:background="@drawable/bordergreen"
+            />
+    </LinearLayout>
+
+
+    <android.support.v7.widget.CardView
+        android:layout_below="@+id/pro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        app:cardBackgroundColor="#66000000"
+        app:cardCornerRadius="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dip" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical"
+                android:background="@drawable/borderwhite"
+                >
+
+            <TextView
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:textAlignment="center"
+                android:id="@+id/text1"
+                android:textSize="15dp"
+                android:background="@drawable/borderblack"
+                android:textColor="#FFFFFF"
+                android:text="TABLE OF CONTENTS"
+                tools:ignore="DuplicateIds"
+                />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:textAlignment="center"
+                    android:id="@+id/text1"
+                    android:textSize="15dp"
+                    android:textColor="#FFFFFF"
+                    android:text="APPENDICES"
+                    tools:ignore="DuplicateIds"
+                    />
+            </LinearLayout>
+            <ListView
+                android:id="@+id/v2list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </ListView>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+    </RelativeLayout>
+
+</RelativeLayout>
