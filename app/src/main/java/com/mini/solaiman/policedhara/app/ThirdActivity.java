@@ -224,7 +224,7 @@ public class ThirdActivity extends AppCompatActivity {
         } else if ("n".equals(part)) {
 
         } else {
-            list.add(new Item("B.-P.-Form-Index", ""));
+            list.add(new Item("B. P. Form Index", ""));
             list.add(new Item("B. P. Form No. 1", ""));
             list.add(new Item("B. P. Form No. 2", ""));
             list.add(new Item("B. P. Form No. 3", ""));
@@ -312,7 +312,7 @@ public class ThirdActivity extends AppCompatActivity {
             list.add(new Item("B. P. Form No. 80", ""));
             list.add(new Item("B. P. Form No. 81", ""));
             list.add(new Item("B. P. Form No. 82", ""));
-            list.add(new Item("B. P. Form No. 82-A", ""));
+            //list.add(new Item("B. P. Form No. 82-A", ""));
             list.add(new Item("B. P. Form No. 83", ""));
             list.add(new Item("B. P. Form No. 84", ""));
             list.add(new Item("B. P. Form No. 85", ""));
@@ -342,8 +342,8 @@ public class ThirdActivity extends AppCompatActivity {
             list.add(new Item("B. P. Form No. 108", ""));
             list.add(new Item("B. P. Form No. 109", ""));
             list.add(new Item("B. P. Form No. 110", ""));
-            list.add(new Item("B. P. Form No. 110-2", ""));
-            list.add(new Item("B. P. Form No. 110-A", ""));
+            //list.add(new Item("B. P. Form No. 110-2", ""));
+            //list.add(new Item("B. P. Form No. 110-A", ""));
             list.add(new Item("B. P. Form No. 111", ""));
             list.add(new Item("B. P. Form No. 112", ""));
             list.add(new Item("B. P. Form No. 113", ""));
@@ -358,12 +358,12 @@ public class ThirdActivity extends AppCompatActivity {
             list.add(new Item("B. P. Form No. 122", ""));
             list.add(new Item("B. P. Form No. 123", ""));
             list.add(new Item("B. P. Form No. 124", ""));
-            list.add(new Item("B. P. Form No. 124-A", ""));
+            //list.add(new Item("B. P. Form No. 124-A", ""));
             list.add(new Item("B. P. Form No. 125", ""));
             list.add(new Item("B. P. Form No. 126", ""));
             list.add(new Item("B. P. Form No. 127", ""));
             list.add(new Item("B. P. Form No. 128", ""));
-            list.add(new Item("B. P. Form No. 128-A", ""));
+            //list.add(new Item("B. P. Form No. 128-A", ""));
             list.add(new Item("B. P. Form No. 129", ""));
             list.add(new Item("B. P. Form No. 130", ""));
             list.add(new Item("B. P. Form No. 131", ""));

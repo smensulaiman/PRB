@@ -27,7 +27,7 @@ public class HtmlActivity extends AppCompatActivity {
 
             WebView mWebView = (WebView) findViewById(R.id.webView);
             mWebView.setBackgroundColor(Color.TRANSPARENT);
-            mWebView.setBackgroundResource(R.drawable.html);
+            //mWebView.setBackgroundResource(R.drawable.html);
             if(id.contains("প্রবিধান ১০৩৯")){
             mWebView.loadUrl("file:///android_asset/one.html");
             }else if(id.contains("প্রবিধান ৮৮২")){

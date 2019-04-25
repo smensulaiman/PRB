@@ -119,6 +119,7 @@ public class PartOfBook extends AppCompatActivity {
         btn_1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                BackCon.selectedActivity = 1;
                 Intent intent = new Intent(PartOfBook.this, ThirdActivity.class);
                 text = "partone";
                 pos = "1";
@@ -145,6 +146,7 @@ public class PartOfBook extends AppCompatActivity {
         btn_3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                BackCon.selectedActivity = 3;
                 Intent intent = new Intent(PartOfBook.this, ThirdActivity.class);
                 text = "x";
                 pos = "3";

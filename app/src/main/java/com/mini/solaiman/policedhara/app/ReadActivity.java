@@ -2,9 +2,11 @@ package com.mini.solaiman.policedhara.app;
 
 import android.content.Intent;
 import android.graphics.Typeface;
+import android.os.Build;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.text.Layout;
 import android.text.method.ScrollingMovementMethod;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -49,6 +51,9 @@ public class ReadActivity extends AppCompatActivity {
                 TextView tlb = (TextView) findViewById(R.id.textViewHead);
                 tlb.setText(id);
                 TextView tv = (TextView) findViewById(R.id.textView);
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+                    tv.setJustificationMode(Layout.JUSTIFICATION_MODE_INTER_WORD);
+                }
                 tv.setText(textB);
                 tv.setTypeface(type);
             } catch (Exception e) {

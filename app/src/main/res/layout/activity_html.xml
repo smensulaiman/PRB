@@ -4,16 +4,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.mini.solaiman.policedhara.app.HtmlActivity">
+    android:background="@drawable/reader"
+    tools:context="com.mini.solaiman.policedhara.app.HtmlActivity"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        android:background="@drawable/onlyborder"
+        >
 
     <WebView
         android:id="@+id/webView"
-        android:background="@drawable/reader"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:padding="5dp"
-        >
-
-    </WebView>
+        android:padding="2dp"
+        />
+    </LinearLayout>
 
 </RelativeLayout>
